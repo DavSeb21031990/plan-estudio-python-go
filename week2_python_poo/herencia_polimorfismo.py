@@ -31,3 +31,25 @@ animales = [animal_1, animal_2, perro_1, gato_1]
 
 for animal in animales:
     animal.hacer_sonido()
+
+"""
+Ejemplo de composición.
+- Motor y Autor son dos clases diferentes.
+- Autor tiene un motor como atributo de tipo Motor.
+"""
+
+
+class Motor:
+    def __init__(self, potencia):
+        self.potencia = potencia
+
+    def arrancar(self):
+        print(f"Iniciando motor con potencia {self.potencia} "
+              f"caballos de fuerza")
+
+
+class Auto:
+    def __init__(self, marca, modelo, potencia_motor=1000):
+        self.marca = marca
+        self.modelo = modelo
+        self.motor = Motor(potencia_motor)
