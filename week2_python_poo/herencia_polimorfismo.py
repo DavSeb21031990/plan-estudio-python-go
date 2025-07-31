@@ -19,6 +19,7 @@ class Gato(Animal):
         super().__init__()
 
     def hacer_sonido(self):
+        super().hacer_sonido()
         print("el gato hace miau")
 
 
