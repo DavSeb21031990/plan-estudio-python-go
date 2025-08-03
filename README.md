@@ -50,4 +50,8 @@
 - 💻 [Ambientes Virtuales](docs/guias/python/advanced/virtual-environments.md)
 
 #### 🧪 Testing
-- 📋 [Introducción](docs/guias/python/testing/home.md)
+- ⚙️ [Configuración](docs/guias/python/testing/config.md)
+- 📋 [Conceptos Básicos](docs/guias/python/testing/home.md)
+- 🧱 [Fixture](docs/guias/python/testing/fixture.md)
+- 🧷 [Parametrización](docs/guias/python/testing/parametrizacion.md)
+- 📊 [Cobertura de código](docs/guias/python/testing/coverage.md)
