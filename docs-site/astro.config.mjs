@@ -77,6 +77,13 @@ export default defineConfig({
                                 },
 
                                 {
+                                    label: 'Manejo de Archivos',
+                                    items: [
+                                        {label: 'Introducción', slug: 'guias/python/file-management/home'},
+                                    ]
+                                },
+
+                                {
                                     label: 'Avanzado',
                                     items: [
                                         {label: 'Resolución de problemas complejos', slug: 'guias/python/advanced/solving-complex-problems'},
