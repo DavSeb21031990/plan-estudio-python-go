@@ -79,7 +79,7 @@ export default defineConfig({
                                 {
                                     label: 'Manejo de Archivos',
                                     items: [
-                                        {label: 'Introducción', slug: 'guias/python/file-management/home'},
+                                        {label: 'Introducción', slug: 'guias/python/managed-files/home'},
                                     ]
                                 },
 
